@@ -8,7 +8,7 @@ import Navigation from './navigation';
 const Stack = createStackNavigator();
 export default () => {
   return(
-          <Stack.Navigator initialRouteName="SignIn" screenOptions={{headerShown: false}}>
+          <Stack.Navigator initialRouteName="Initial" screenOptions={{headerShown: false}}>
             <Stack.Screen name='Initial' component={Initial}/>
             <Stack.Screen name='SignIn' component={SignIn} />
             <Stack.Screen name='Navigation' component={Navigation} />
